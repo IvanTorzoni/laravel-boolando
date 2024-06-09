@@ -23,13 +23,13 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 
-});
+})->name("home");
 Route::get('/kid', function () {
     return view('kid');
-});
+})->name("kid");
 Route::get('/man', function () {
     return view('man');
-});
+})->name("man");
 Route::get('/woman', function () {
     return view('woman');
-});
+})->name("woman");
