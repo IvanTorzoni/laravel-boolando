@@ -14,7 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $products = config("products.products");
+    $data = [
+        "products" => $products
+
+    //visualizzazione del array (die incluso)
+    // dd($products);
+    ];
+    return view('home', $data);
+
 });
 Route::get('/kid', function () {
     return view('kid');
