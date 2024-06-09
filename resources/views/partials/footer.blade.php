@@ -2,8 +2,8 @@
     <h5>Boolando s.r.l</h5>
 
     <ul>
-        <li>Informazioni legali</li>
-        <li>Normativa sulla privacy</li>
-        <li>Diritti di recesso</li>
+        <li><a href="#">Informazioni legali</a></li>
+        <li><a href="#">Informativa sulla privacy</a></li>
+        <li><a href="#">Diritto di recesso</a></li>
     </ul>
 </footer>
