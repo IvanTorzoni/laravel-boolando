@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style-type: none;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 30%;
+    }
+}
